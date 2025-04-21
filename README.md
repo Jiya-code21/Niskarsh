@@ -1,3 +1,6 @@
+![Uploading image.png…]()
+
+
 ⚠️ Note: This extension does not store or share your API key.  
 All keys are saved locally in your browser’s storage.
 
