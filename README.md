@@ -5,6 +5,7 @@
 All keys are saved locally in your browser’s storage.
 
 🚀 How to Test Your AI Article Summarizer Extension Locally
+
 1). First, set Chrome to Developer Mode by turning on the toggle in the Extensions page.
 (Go to 👉 chrome://extensions/ and enable Developer Mode from the top-right corner.)
 
