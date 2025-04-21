@@ -11,7 +11,7 @@ All keys are saved locally in your browser’s storage.
 
 2). Click on "Load Unpacked" 📂 — it's located at the top of the same page.
 
-3). Select the "ai_article_summarizer" folder from your system where your extension files are saved.
+3). Once you fork this repository, the folder will automatically be named ai_article_summarizer (same as the repo). Select this folder when using Load Unpacked in Chrome Extensions.
 
 4). Once the UI opens, click on "Google AI Studio" and then select "Create API Key".
 👉 Choose Gemini API and copy the API key.
