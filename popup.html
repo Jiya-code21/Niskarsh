@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Summarizer</title>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+  
+    font-family: 'Arial', sans-serif;
+min-width:500px;
+min-height:300px;
+    padding:15px;
+  }
+
+  .container {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 40px 50px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+   
+    color: #333;
+    margin-bottom: 20px;
+   
+  }
+
+  .options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  select, button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+  }
+
+  select:focus, button:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #copy-btn {
+    background-color: #28a745;
+  }
+
+  #copy-btn:hover {
+    background-color: #218838;
+  }
+
+  #result {
+    background-color: #f8f9fa;
+    color: #555;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    min-height: 120px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+
+  button:active, #copy-btn:active {
+    transform: scale(0.98);
+  }
+  
+  </style>
+</head>
+<body>
+    <h2>AI Summary</h2>
+    <div class="options">
+        <select id="summary-type">
+            <option value="brief">Brief</option>
+            <option value="detailed">Detailed</option>
+            <option value="bullets">Bullets</option>
+        </select>
+        <button id="summarize">Summarize</button>
+<button id="copy-btn">Copy</button>
+    </div>
+
+
+
+<pre id="result">Select a type and click Summarize...</pre>
+
+<script src="popup.js"></script>
+</body>
+</html>
