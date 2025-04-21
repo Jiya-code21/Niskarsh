@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/10126808-eb8a-4ef1-adf9-7775078509e7)
 
 
 ⚠️ Note: This extension does not store or share your API key.  
