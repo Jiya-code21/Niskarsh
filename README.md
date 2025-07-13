@@ -3,28 +3,90 @@
 ![image](https://github.com/user-attachments/assets/10126808-eb8a-4ef1-adf9-7775078509e7)
 
 
-⚠️ Note: This extension does not store or share your API key.  
-All keys are saved locally in your browser’s storage.
+## 🧠 What is Niskarsh?
 
-🚀 How to Test Your AI Article Summarizer Extension Locally
+**Niskarsh** is a simple and clean Chrome extension that uses the power of **Google Gemini AI** to generate quick summaries for any content. Whether it's a long article, documentation, or blog post — get the **gist** in seconds.
 
-1). First, set Chrome to Developer Mode by turning on the toggle in the Extensions page.
-(Go to 👉 chrome://extensions/ and enable Developer Mode from the top-right corner.)
+---
 
-2). Click on "Load Unpacked" 📂 — it's located at the top of the same page.
+## 💡 Why Niskarsh?
 
-3). Once you fork this repository, the folder will automatically be named ai_article_summarizer (same as the repo). Select this folder when using Load Unpacked in Chrome Extensions.
+Most existing summarizers:
+-  Are cluttered or difficult to use  
+-  Lack instant "brief" or "bullet" views  
+-  Don't let you store API keys locally  
 
-4). Once the UI opens, click on "Google AI Studio" and then select "Create API Key".
-👉 Choose Gemini API and copy the API key.
+**Niskarsh** solves all that with:
+✅ A clean UI  
+✅ Bullet and brief options  
+✅ Local API key storage (🔒 your key is safe)
 
-5). Paste the API key into the extension's UI and click on "Save Settings" 💾.
+---
 
-6). Your extension is now successfully added! 🎉
-You can spot it in the Chrome Extensions bar — simply pin it for easy access.
+## ⚙️ How to Use (Local Setup Guide)
 
-7). Now click on "Brief Details" and "Bullets" ✍ to generate summaries as per your requirement.
+> ⚠️ **Note:** Your API key is **never shared** or stored on a server. It's saved securely in your browser only.
 
-8). You can also easily copy the generated summary 📋.
+### 🧩 Step 1: Enable Developer Mode
+- Go to `chrome://extensions/`
+- Toggle **Developer Mode** ON (top-right)
 
-✅ All set! Your extension is ready to make content summarizing super easy!
+### 📂 Step 2: Load the Extension
+- Click **“Load Unpacked”**
+- Select your local `ai_article_summarizer` folder (the one you cloned or forked)
+
+### 🔑 Step 3: Get Your Gemini API Key
+- Open [Google AI Studio](https://aistudio.google.com/app/apikey)
+- Generate a new Gemini API Key
+- Copy it
+
+### 💾 Step 4: Save Your API Key
+- Open the extension from Chrome toolbar
+- Paste your API key and click **“Save Settings”**
+
+### ✨ Step 5: Summarize Anything!
+- Click on **“Brief Details”** or **“Bullets”**
+- Get quick summaries instantly  
+- Copy with one click 📋
+
+---
+
+## 🚀 Features
+
+- 📋 **Brief or Bullet** style summaries
+- 🧠 Powered by Google Gemini
+- 🗝 Local API key storage (secure)
+- 🎨 Clean & distraction-free interface
+- 📎 Easy clipboard copying
+
+---
+
+## 🧩 Tech Stack
+
+| Tech          | Purpose                        |
+|---------------|--------------------------------|
+| HTML, CSS, JS | Core frontend logic & styling  |
+| Chrome APIs   | Extension functionality        |
+| Google Gemini | AI Summarization               |
+| LocalStorage  | Store API key securely         |
+
+---
+
+## 🤝 Contributing
+
+Found a bug? Got an idea to improve the extension?  
+Feel free to **fork** the repo, raise an issue, or create a PR! Contributions are always welcome.
+
+---
+
+<h3 align="center">🌟 Thank You for Visiting!</h3>
+
+<p align="center">
+  If Niskarsh helped you or inspired you,<br />
+  please consider giving it a ⭐ on GitHub — it really helps!
+</p>
+
+<p align="center">
+  Let's simplify content, one summary at a time. <br />
+  ✨ Happy Summarizing! 💡
+</p>
