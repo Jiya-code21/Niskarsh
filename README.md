@@ -63,7 +63,7 @@ Most existing summarizers:
 | Google Gemini | AI Summarization               |
 | LocalStorage  | Store API key securely         |
 
----
+--- 
 
 🤝 Contributing
 
