@@ -3,13 +3,13 @@
 ![image](https://github.com/user-attachments/assets/10126808-eb8a-4ef1-adf9-7775078509e7)
 
 
-## 🧠 What is Niskarsh?
+🧠 What is Niskarsh?
 
 **Niskarsh** is a simple and clean Chrome extension that uses the power of **Google Gemini AI** to generate quick summaries for any content. Whether it's a long article, documentation, or blog post — get the **gist** in seconds.
 
 ---
 
-## 💡 Why Niskarsh?
+💡 Why Niskarsh?
 
 Most existing summarizers:
 -  Are cluttered or difficult to use  
@@ -23,35 +23,35 @@ Most existing summarizers:
 
 ---
 
-## ⚙️ How to Use (Local Setup Guide)
+⚙️ How to Use (Local Setup Guide)
 
 > ⚠️ **Note:** Your API key is **never shared** or stored on a server. It's saved securely in your browser only.
 
-### 🧩 Step 1: Enable Developer Mode
+🧩 Step 1: Enable Developer Mode
 - Go to `chrome://extensions/`
 - Toggle **Developer Mode** ON (top-right)
 
-### 📂 Step 2: Load the Extension
+ 📂 Step 2: Load the Extension
 - Click **“Load Unpacked”**
 - Select your local `ai_article_summarizer` folder (the one you cloned or forked)
 
-### 🔑 Step 3: Get Your Gemini API Key
+🔑 Step 3: Get Your Gemini API Key
 - Open [Google AI Studio](https://aistudio.google.com/app/apikey)
 - Generate a new Gemini API Key
 - Copy it
 
-### 💾 Step 4: Save Your API Key
+💾 Step 4: Save Your API Key
 - Open the extension from Chrome toolbar
 - Paste your API key and click **“Save Settings”**
 
-### ✨ Step 5: Summarize Anything!
+ ✨ Step 5: Summarize Anything!
 - Click on **“Brief Details”** or **“Bullets”**
 - Get quick summaries instantly  
 - Copy with one click 📋
 
 ---
 
-## 🚀 Features
+🚀 Features
 
 - 📋 **Brief or Bullet** style summaries
 - 🧠 Powered by Google Gemini
@@ -61,7 +61,7 @@ Most existing summarizers:
 
 ---
 
-## 🧩 Tech Stack
+🧩 Tech Stack
 
 | Tech          | Purpose                        |
 |---------------|--------------------------------|
@@ -72,7 +72,7 @@ Most existing summarizers:
 
 ---
 
-## 🤝 Contributing
+🤝 Contributing
 
 Found a bug? Got an idea to improve the extension?  
 Feel free to **fork** the repo, raise an issue, or create a PR! Contributions are always welcome.
