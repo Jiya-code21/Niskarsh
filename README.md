@@ -2,19 +2,12 @@
 
 ![image](https://github.com/user-attachments/assets/10126808-eb8a-4ef1-adf9-7775078509e7)
 
-
-🧠 What is Niskarsh?
-
-**Niskarsh** is a simple and clean Chrome extension that uses the power of **Google Gemini AI** to generate quick summaries for any content. Whether it's a long article, documentation, or blog post — get the **gist** in seconds.
-
----
-
 💡 Why Niskarsh?
 
 Most existing summarizers:
--  Are cluttered or difficult to use  
--  Lack instant "brief" or "bullet" views  
--  Don't let you store API keys locally  
+- Are cluttered or difficult to use  
+- Lack instant "brief" or "bullet" views  
+- Don't let you store API keys locally  
 
 **Niskarsh** solves all that with:
 ✅ A clean UI  
@@ -81,12 +74,14 @@ Feel free to **fork** the repo, raise an issue, or create a PR! Contributions ar
 
 <h3 align="center">🌟 Thank You for Visiting!</h3>
 
-<p align="center">
-  If Niskarsh helped you or inspired you,<br />
-  please consider giving it a ⭐ on GitHub — it really helps!
-</p>
+<div align="center">
+  <p align="left" style="max-width:600px; margin:auto;">
+    If Niskarsh helped you or inspired you,<br />
+    please consider giving it a ⭐ on GitHub — it really helps!
+  </p>
 
-<p align="center">
-  Let's simplify content, one summary at a time. <br />
-  ✨ Happy Summarizing! 💡
-</p>
+  <p align="left" style="max-width:600px; margin:auto;">
+    Let's simplify content, one summary at a time.<br />
+    ✨ Happy Summarizing! 💡
+  </p>
+</div>
