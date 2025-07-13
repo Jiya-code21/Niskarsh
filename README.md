@@ -1,5 +1,5 @@
 <h1 align="center">✨ Niskarsh – AI Summarizer Extension</h1>
-
+ 
 ![image](https://github.com/user-attachments/assets/10126808-eb8a-4ef1-adf9-7775078509e7)
 
 💡 Why Niskarsh?
